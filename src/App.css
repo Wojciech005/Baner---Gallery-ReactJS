@@ -1,0 +1,68 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1D6FA3;
+  font-family: 'Indie Flower', cursive;
+  
+}
+h1 {
+  margin: 20px 0 20px;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  
+}
+
+div.main {
+  margin: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  
+  
+}
+
+section {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo__box {
+  display: block;
+  margin: 10px auto;
+  flex-basis: 70%;
+  border-radius: 12px;
+  height: 70vh;
+  box-shadow: 0 0 8px 0 black;
+
+}
+
+button {
+  flex-basis: 30%;
+  height: 40px;
+  display: block;
+  margin: 20px auto;
+  font-family: 'Indie Flower', cursive;
+  border-radius: 6px;
+  font-size: 30px;
+  padding: 0px 10px 10px;
+  background-color: white;
+  box-shadow: 0 0 6px 0 black;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+ color: white;
+ background-color: black;
+}
+
